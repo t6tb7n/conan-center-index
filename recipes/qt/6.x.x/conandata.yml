@@ -41,3 +41,8 @@ sources:
       - "https://www.funet.fi/pub/mirrors/download.qt-project.org/archive/qt/6.1/6.1.1/single/qt-everywhere-src-6.1.1.tar.xz"
       - "https://ftp.fau.de/qtproject/archive/qt/6.1/6.1.1/single/qt-everywhere-src-6.1.1.tar.xz"
     sha256: "6ac937aae4c7b5a3eac90ea4d13f31ded9f78ebc93007bb919fae65c58c808c3"
+
+patches:
+  "6.1.1":
+    - patch_file: "patches/9fdc076ccc.diff"
+      base_path: "qt6/qtdeclarative"
